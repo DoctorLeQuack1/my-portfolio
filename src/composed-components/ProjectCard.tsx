@@ -16,10 +16,12 @@ export const ProjectCard = (props: any) => {
             <div className="self-center pb-10">
                 <p className="text-2xl text-gray-600 text-center">{props.object.title_}</p>
             </div>
-
+            
             <div className="self-center pb-10">
                 <p className="text-2xl text-gray-600 text-center">{props.object.description_}</p>
             </div>
+            
+            <hr className="mb-10 border-gray-200 dark:border-gray-700" />
 
             <div className="text-center pb-10">
                 <CustomButton text={"GitHub Repo"} onClick={handleClick} />
