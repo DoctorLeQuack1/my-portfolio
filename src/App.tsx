@@ -10,11 +10,11 @@ import { AboutMe } from './pages/AboutMe'
 function App() {
   return (
     <div>
-      <header className="sticky top-0 bg-transparent backdrop-blur-lg z-50 mb-5">
+      <header className="sticky top-0 bg-transparent backdrop-blur-lg mb-5">
         <NavBar/>
       </header>
       <main>
-        <Portfolio />
+        {/* <Portfolio /> */}
         {/* <FormSub/> */}
         <AboutMe/>
       </main>
