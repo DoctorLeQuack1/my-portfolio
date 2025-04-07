@@ -43,7 +43,7 @@ const card_struct: any = {
 export const Portfolio = () => {
 
     return (
-        <div className="flex justify-center items-center pb-10">
+        <div className="flex justify-center items-center pb-10 mx-10">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-5">
                 <ProjectCard object={card_struct.vehicle} />
                 <ProjectCard object={card_struct.tracker} />
